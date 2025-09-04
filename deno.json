@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "start": "deno -NR src/main.ts"
+    "start": "deno -NR --watch src/main.ts"
   },
   "imports": {
     "oak": "https://deno.land/x/oak@v17.1.0/mod.ts"
